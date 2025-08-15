@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico"  />
+    <link rel="stylesheet" href="/globals.css" />
+    <link rel="stylesheet" href="/css/transition.css" />
+    <link rel="stylesheet" href="/css/menu.css" />
+    <link rel="stylesheet" href="/css/home.css" />
+    <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+  </head>
+  <body>
+    <div class="transition">
+      <div class="transition-overlay overlay"></div>
+      <div class="transition-logo">
+        <img src="/global/logo.png" alt="Logo" />
+      </div>
+    </div>
+    <div class="mask-transition"></div>
+    <div class="mask-bg-overlay"></div>
+
+    <nav class="menu">
+      <div class="menu-header">
+        <a href="#" class="menu-logo"><img src="/global/logo.png" alt="" /></a>
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <div class="menu menu-hamburger-icon">
+            <span class="menu-item"></span>
+            <span class="menu-item"></span>
+          </div>
+        </button>
+      </div>
+      <div class="menu-overlay">
+        <nav class="menu-nav">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About the Team</a></li>
+          </ul>
+        </nav>
+        <div class="menu-footer">
+          <div class="menu-social">
+            <a href="https://www.facebook.com/profile.php?id=61578939837878"><span>&#9654;</span> Facebook</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="about-hero">
+      <div class="about-hero-img">
+        <img src="/about/team.jpg" alt="" />
+      </div>
+      <div class="container">
+        <div class="about-header">
+          <h2 data-animate-type="line-reveal" data-animate-delay="0.25">
+            The Team Behind Mainandámon
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="anime-text-container">
+      <div class="home-spotlight-top-bar">
+        <div class="container">
+          <div class="symbols-container">
+            <div class="symbol">
+              <img src="/symbols/s1-dark.png" alt="Symbol" />
+            </div>
+          </div>
+          <div class="symbols-container">
+            <div class="symbol">
+              <img src="/symbols/s1-dark.png" alt="Symbol" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="home-spotlight-bottom-bar">
+        <div class="container">
+          <p
+            class="mono"
+            data-animate-type="scramble"
+            data-animate-delay="0.2"
+            data-animate-on-scroll="true"
+          >
+            <span>&#9654;</span> About Us
+          </p>
+          <p
+            class="mono"
+            data-animate-type="scramble"
+            data-animate-delay="0.25"
+            data-animate-on-scroll="true"
+          >
+            Kubo 12 Cohort 9
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copy-container">
+          <div class="anime-text">
+            <p>
+              We were just student leaders from different cities, united by a shared ambition when we were paired up for a single capstone project in the KadaKareer's NUSA x KadaKamp Building Bootcamp. There were four of us, each bringing our own perspectives, stories, and dreams but as we brainstormed, one urgent, unifying thread emerged: the need for financial literacy.
+            </p>
+            <p>
+              Growing up in different parts of the Philippines, we saw how families and communities often struggle with budgeting, saving, dealing with debt, or even knowing where to start with financial planning. We realized that so many of the challenges people face—missed opportunities, cycles of hardship, anxiety over emergencies—are really rooted in a lack of simple, accessible knowledge about money.
+            </p>
+            <p>
+              We hope to turn everyday stories of challenge into stories of empowerment, helping people move from surviving to thriving—one skill, one community, one future at a time. That’s the goal we share, and the impact we’re determined to make.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <div class="container">
+        <div class="footer-bottom">
+          <div class="footer-col">
+            <div class="footer-logo">
+              <img src="/global/logo.png" style="width: 200px; height: auto;" />
+            </div>
+          </div>
+          <div class="footer-col">
+            <div class="footer-sub-col">
+              <p class="mono">Kubo 12 Members</p>
+              <div class="footer-links">
+                <p>Jedidiah Rollinas</p>
+                <p>Stephanie Nichole Gulle</p>
+                <p>Leary Micaela Bocita</p>
+                <p>Dinah Rubia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+    <script type="module" src="/script/lenis-scroll.js"></script>
+    <script type="module" src="/script/transition.js"></script>
+    <script type="module" src="/script/menu.js"></script>
+    <script type="module" src="/script/about.js"></script>
+  </body>
+</html>
